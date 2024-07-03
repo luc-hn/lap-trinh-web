@@ -26,6 +26,7 @@
 }
 .product-list {
     display: flex;
+    gap: 15px;
 }
 .title {
     font-weight: bold;
