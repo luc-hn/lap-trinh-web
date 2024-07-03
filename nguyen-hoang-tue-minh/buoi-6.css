@@ -1,0 +1,49 @@
+.navigation {
+    background-color: grey;
+    padding: 25px;
+    a { 
+        color: white;
+        text-decoration: none;
+    }
+}
+.hero-banner {
+    width: 100%;
+}
+.product {
+    width: 300px;
+    border: 1px solid grey;
+    padding: 10px;
+    .product-name {
+        font-weight: bold;
+    }
+    .product-image {
+        width: 100%;
+    }
+    .product-price {
+        color: red;
+        font-weight: bold;
+    }
+}
+.product-list {
+    display: flex;
+}
+.title {
+    font-weight: bold;
+}
+.banners {
+    display: flex;
+    gap: 15px;
+    div, img {
+        width: 100%;
+    }
+}
+.footer {
+    font-size: 11px ;
+    display: flex;
+    div {
+        width: 100%;
+    }
+    img {
+       width: 90px; 
+    }
+}
