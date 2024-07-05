@@ -8,10 +8,11 @@
 }
 .hero-banner {
     width: 100%;
+    margin-bottom: 10px;
 }
 .product {
     width: 300px;
-    border: 1px solid grey;
+    border: 0.8px solid rgb(0, 0, 0);
     padding: 10px;
     .product-name {
         font-weight: bold;
@@ -26,7 +27,12 @@
 }
 .product-list {
     display: flex;
-    gap: 15px;
+    gap: 12px;
+    margin-bottom: 12px;
+    a {
+        text-decoration: none;
+        color: black;
+    }
 }
 .title {
     font-weight: bold;
@@ -48,3 +54,4 @@
        width: 90px; 
     }
 }
+
